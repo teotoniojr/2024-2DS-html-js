@@ -2,8 +2,9 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Olimpiadas </title>
+    <title> Tabuada </title>
 </head>
 <body>
     <script>
@@ -16,12 +17,14 @@
             pulaLinha()
         }
 
-        let anoOlimpiadas = 1896
+        let multiplicador = 1
+        mostrar('A tabuada do número 4 é:')
 
-        while(anoOlimpiadas <= 2024){
-            mostrar('Teve olimpiadas em ' + anoOlimpiadas)
-            anoOlimpiadas = anoOlimpiadas + 4
+        while(multiplicador <= 10){
+            mostrar(`${multiplicador} x 4 = ${multiplicador * 4}`)
+            multiplicador = multiplicador + 1 
         }
+
     </script>
 </body>
 </html>
