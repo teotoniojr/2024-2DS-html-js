@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo: "Arima", system-ui;
+    --fonte-texto: "Chakra Petch", sans-serif;
+    --cor-cartao: #3c1642ff;
+    --cor-cabecalho: #086375ff;
+    --cor-texto01: #1dd3b0ff;
+    --cor-texto02: #000000;
+    --cor-destaque: #affc41ff;
+    --cor-fundo: #b2ff9eff;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-texto);
+}
+header{
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+    padding: 2em;
+    color: var(--cor-texto01);
+}
+header h1{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+}
+
+.projetos{
+    padding: 2em;
+    display: flex;
+}
