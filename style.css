@@ -20,7 +20,7 @@ body{
     background-color: var(--cor-fundo);
     font-family: var(--fonte-texto);
 }
-header{
+header, footer{
     background-color: var(--cor-cabecalho);
     text-align: center;
     padding: 2em;
@@ -34,4 +34,29 @@ header h1{
 .projetos{
     padding: 2em;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartao{
+    text-align: center;
+    background-color: var(--cor-cartao);
+    width: 100%;
+    margin: 1em 0;
+    color: var(--cor-texto01);
+    padding: 1em 0;
+    border-radius: 10px;
+}
+
+.cartao:hover{
+    background-color: var(--cor-cabecalho);
+}
+
+.cartao a{
+    text-decoration: none;
+    color: var(--cor-destaque);
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor-destaque);
 }
