@@ -56,10 +56,15 @@ header h1{
     color: var(--cor-destaque);
 }
 
+.ultimo-cartao{
+    margin-bottom: 5em;
+}
+
 footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 1em;
 }
 
 footer a{
